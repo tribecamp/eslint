@@ -6,7 +6,6 @@
   "repository": "https://github.com/tribecamp/eslint-config-tribecamp",
   "author": "Tribecamp",
   "license": "MIT",
-  "private": false,
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "4.6.1",
     "@typescript-eslint/parser": "4.6.1",
