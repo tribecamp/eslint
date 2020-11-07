@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "The ESLint config Tribecamp uses.",
   "main": "index.js",
-  "directories": {
-    "lib": "rules"
-  },
   "repository": "https://github.com/tribecamp/eslint-config-tribecamp",
   "author": "Tribecamp",
   "license": "MIT",
