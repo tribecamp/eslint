@@ -1,2 +1,5 @@
 # eslint-config-tribecamp
-Our ESLint config.
+The ESLint config Tribecamp uses.
+
+# License
+This project is licensed under the MIT license.
