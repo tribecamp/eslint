@@ -1,7 +1,8 @@
+/* eslint-disable import/no-commonjs */
 module.exports = {
   parser: 'vue-eslint-parser',
   parserOptions: {
-    parser: '@typescript-eslint/parser',
+    parser: '@typescript-eslint/parser'
   },
   extends: ['airbnb-base', 'plugin:vue/recommended', 'plugin:@typescript-eslint/recommended'],
   plugins: ['@typescript-eslint', 'html', 'jsdoc', 'no-loops', 'jest', 'unicorn'],
@@ -15,6 +16,7 @@ module.exports = {
       default: 'array',
       readonly: 'array'
     }],
+    'max-classes-per-file': 'off',
     'require-await': 2,
     'class-methods-use-this': 'off',
     'no-plusplus': 'off',
@@ -46,9 +48,9 @@ module.exports = {
     'no-param-reassign': [
       'error',
       {
-        'props': true,
-        'ignorePropertyModificationsFor': [
-          'state',
+        props: true,
+        ignorePropertyModificationsFor: [
+          'state'
         ]
       }
     ],
@@ -58,8 +60,8 @@ module.exports = {
     'unicorn/throw-new-error': 'error'
   },
   globals: {
-    'Vue': 'writeable',
-    '$': 'writeable'
+    Vue: 'writeable',
+    $: 'writeable'
   },
   overrides: [
     {
@@ -86,5 +88,5 @@ module.exports = {
         '@typescript-eslint/explicit-function-return-type': 'off'
       }
     }
-  ],
+  ]
 };
