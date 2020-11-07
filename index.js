@@ -1,4 +1,3 @@
-/* eslint-disable import/no-commonjs */
 module.exports = {
   parser: 'vue-eslint-parser',
   parserOptions: {
