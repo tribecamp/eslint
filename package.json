@@ -6,6 +6,7 @@
   "repository": "https://github.com/tribecamp/eslint-config-tribecamp",
   "author": "Tribecamp",
   "license": "MIT",
+  "private": false,
   "devDependencies": {
     "eslint-config-airbnb": "18.2.1",
     "eslint-config-airbnb-base": "14.2.1"
