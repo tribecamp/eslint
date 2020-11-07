@@ -1,6 +1,6 @@
 {
   "name": "@tribecamp/eslint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The ESLint config Tribecamp uses.",
   "main": "index.js",
   "repository": "https://github.com/tribecamp/eslint-config-tribecamp",
