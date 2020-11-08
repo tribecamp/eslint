@@ -12,8 +12,8 @@ There are four configs you can choose from. These are the options:
 module.exports = {
   extends: [
     './node_modules/@tribecamp/eslint/base',
-    './node_modules/@tribecamp/eslint/typescript'
-    './node_modules/@tribecamp/eslint/vue'
+    './node_modules/@tribecamp/eslint/typescript',
+    './node_modules/@tribecamp/eslint/vue',
     './node_modules/@tribecamp/eslint/jest'
   ]
 };
