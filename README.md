@@ -4,7 +4,7 @@ The ESLint config Tribecamp uses.
 
 ## Usage
 
-Install this package (`yarn --dev @tribecamp/eslint`) and extend it in your `.eslintrc.*`.
+Install this package (`yarn add --dev @tribecamp/eslint`) and extend it in your `.eslintrc.*`.
 
 There are four configs you can choose from. These are the options:
 
