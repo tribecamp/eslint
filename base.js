@@ -8,6 +8,7 @@ module.exports = {
     'no-plusplus': 'off',
     'no-console': 1,
     'no-loops/no-loops': 2,
+    'no-shadow': 'off',
     'no-underscore-dangle': 'off',
     'no-unused-vars': 1,
     'no-unused-expressions': 'off',
