@@ -2,7 +2,7 @@
   "name": "@tribecamp/eslint",
   "version": "1.0.0",
   "description": "The ESLint config Tribecamp uses.",
-  "repository": "https://github.com/tribecamp/eslint-config-tribecamp",
+  "repository": "https://github.com/tribecamp/eslint",
   "author": "Tribecamp",
   "license": "MIT",
   "private": true,
