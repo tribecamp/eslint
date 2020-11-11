@@ -1,6 +1,6 @@
 {
   "name": "@tribecamp/eslint-vue",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "license": "MIT",
   "publishConfig": {
