@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry":"https://npm.pkg.github.com"
+  },
   "dependencies": {
     "eslint-plugin-html": "6.1.0",
     "eslint-plugin-vue": "7.1.0"

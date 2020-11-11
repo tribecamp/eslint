@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry":"https://npm.pkg.github.com"
+  },
   "dependencies": {
     "eslint-plugin-jest": "24.1.0"
   },

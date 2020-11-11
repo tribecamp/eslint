@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry":"https://npm.pkg.github.com"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "4.6.1"
   },
