@@ -2,26 +2,31 @@
 
 The ESLint config Tribecamp uses.
 
-## Usage
+## Installation
 
-Install this package (`yarn add --dev @tribecamp/eslint`) and extend it in your `.eslintrc.*`.
+There are four packages available. Each of them can be installed with `yarn install @tribecamp/...`.
 
-There are four configs you can choose from. These are the options:
+```txt
+@tribecamp/eslint-config-base
+@tribecamp/eslint-config-jest
+@tribecamp/eslint-config-typescript
+@tribecamp/eslint-config-vue
+```
+
+You then need to extend the installed package in your `.eslintrc.js`, like this:
 
 ```js
 module.exports = {
   extends: [
-    './node_modules/@tribecamp/eslint/base',
-    './node_modules/@tribecamp/eslint/typescript',
-    './node_modules/@tribecamp/eslint/vue',
-    './node_modules/@tribecamp/eslint/jest'
+    '@tribecamp/eslint-config-base',
+    '@tribecamp/eslint-config-jest',
+    '@tribecamp/eslint-config-typescript',
+    '@tribecamp/eslint-config-vue'
   ]
 };
 ```
-> We will eventually split up our config into separate npm packages, but for now, you should extend your
-> config using relative paths to the modules.
 
-You'll most likely get a lot of warnings about missing packages. Just install them, and you should be good to go.
+You can just remove the configs you don't need.
 
 ## License
 
