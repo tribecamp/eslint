@@ -5,8 +5,7 @@
   "repository": "https://github.com/tribecamp/eslint",
   "license": "MIT",
   "publishConfig": {
-    "access": "public",
-    "@tribecamp:registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "dependencies": {
     "eslint-config-airbnb": "18.2.1",
