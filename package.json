@@ -1,26 +1,12 @@
 {
   "name": "@tribecamp/eslint",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "The ESLint config Tribecamp uses.",
   "repository": "https://github.com/tribecamp/eslint-config-tribecamp",
   "author": "Tribecamp",
   "license": "MIT",
-  "private": false,
-  "dependencies": {
-    "eslint-config-airbnb": "18.2.1",
-    "eslint-config-airbnb-base": "14.2.1",
-    "eslint-plugin-import": "2.22.1",
-    "eslint-plugin-jsdoc": "30.7.7",
-    "eslint-plugin-jsx-a11y": "6.4.1",
-    "eslint-plugin-no-loops": "0.3.0",
-    "eslint-plugin-react": "7.21.5",
-    "eslint-plugin-unicorn": "23.0.0"
-  },
-  "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "4.6.1",
-    "eslint": "7.13.0",
-    "eslint-plugin-html": "6.1.0",
-    "eslint-plugin-jest": "24.1.0",
-    "eslint-plugin-vue": "7.1.0"
-  }
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
 }

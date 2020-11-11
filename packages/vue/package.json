@@ -1,0 +1,13 @@
+{
+  "name": "@tribecamp/eslint-vue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-plugin-html": "6.1.0",
+    "eslint-plugin-vue": "7.1.0"
+  },
+  "peerDependencies": {
+    "eslint": "7.13.0"
+  }
+}

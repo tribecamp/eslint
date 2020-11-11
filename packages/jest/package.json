@@ -1,0 +1,12 @@
+{
+  "name": "@tribecamp/eslint-jest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-plugin-jest": "24.1.0"
+  },
+  "peerDependencies": {
+    "eslint": "7.13.0"
+  }
+}
