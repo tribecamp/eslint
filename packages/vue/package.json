@@ -2,6 +2,7 @@
   "name": "@tribecamp/eslint-vue",
   "version": "1.0.4",
   "main": "index.js",
+  "repository": "https://github.com/tribecamp/eslint",
   "license": "MIT",
   "publishConfig": {
     "access": "public",
