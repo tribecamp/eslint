@@ -1,6 +1,6 @@
 {
   "name": "@tribecamp/eslint-config-base",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": "https://github.com/tribecamp/eslint",
   "license": "MIT",
