@@ -5,7 +5,7 @@
   "license": "MIT",
   "publishConfig": {
     "access": "public",
-    "registry": "https://npm.pkg.github.com/tribecamp"
+    "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "4.6.1"
