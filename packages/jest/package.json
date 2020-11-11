@@ -1,5 +1,5 @@
 {
-  "name": "@tribecamp/eslint-jest",
+  "name": "@tribecamp/eslint-config-jest",
   "version": "1.0.5",
   "main": "index.js",
   "repository": "https://github.com/tribecamp/eslint",
