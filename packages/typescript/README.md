@@ -1,5 +1,5 @@
 # @tribecamp/typescript
 
-> Tribecamp Typescript Eslint config
+> Tribecamp TypeScript ESLint config
 
-Check out the [Tribecamp Eslint repo](https://github.com/tribecamp/eslint#readme) for installation and usage instructions.
+Please refer to our [ESLint repo](https://github.com/tribecamp/eslint#readme) for installation and usage instructions.
