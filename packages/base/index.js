@@ -2,6 +2,7 @@ module.exports = {
   extends: ['airbnb-base'],
   plugins: ['jsdoc', 'no-loops', 'unicorn'],
   rules: {
+    'no-return-await': 'off',
     'max-classes-per-file': 'off',
     'require-await': 2,
     'class-methods-use-this': 'off',
