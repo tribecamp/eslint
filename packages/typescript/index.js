@@ -2,7 +2,7 @@ module.exports = {
   extends: ['plugin:@typescript-eslint/recommended'],
   plugins: ['@typescript-eslint'],
   rules: {
-    '@typescript-eslint/return-await': 'error',
+    '@typescript-eslint/return-await': ['error', 'always'],
     '@typescript-eslint/explicit-function-return-type': 1,
     '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/interface-name-prefix': 'off',
