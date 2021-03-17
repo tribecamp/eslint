@@ -1,6 +1,6 @@
 module.exports = {
   extends: ['airbnb-base'],
-  plugins: ['jsdoc', 'no-loops', 'unicorn'],
+  plugins: ['jsdoc', 'unicorn'],
   rules: {
     'no-return-await': 'off',
     'max-classes-per-file': 'off',
@@ -8,7 +8,6 @@ module.exports = {
     'class-methods-use-this': 'off',
     'no-plusplus': 'off',
     'no-console': 1,
-    'no-loops/no-loops': 2,
     'no-shadow': 'off',
     'no-underscore-dangle': 'off',
     'no-unused-vars': 1,
