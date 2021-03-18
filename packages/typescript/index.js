@@ -1,6 +1,6 @@
 module.exports = {
   extends: ['plugin:@typescript-eslint/recommended'],
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'deprecation'],
   rules: {
     '@typescript-eslint/return-await': ['error', 'always'],
     '@typescript-eslint/explicit-function-return-type': 1,
@@ -11,6 +11,7 @@ module.exports = {
     '@typescript-eslint/array-type': ['error', {
       default: 'array',
       readonly: 'array'
-    }]
+    }],
+    'deprecation/deprecation': 'warn'
   }
 };

@@ -12,5 +12,8 @@
   },
   "peerDependencies": {
     "eslint": "7.14.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-deprecation": "^1.2.0"
   }
 }
